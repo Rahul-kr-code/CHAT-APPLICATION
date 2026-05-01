@@ -18,31 +18,32 @@ This project is a real-time chat application built using Node.js and Socket.IO. 
 
 This project demonstrates the implementation of WebSocket-based communication and real-time data synchronization between client and server.
 
-🚀 Features
+##🚀 Features
 Real-time messaging between multiple users
 Instant message broadcasting
 No page reload required
 Simple and clean user interface
 Lightweight and fast communication
-🛠️ Technologies Used
+##🛠️ Technologies Used
 HTML5
 CSS3
 JavaScript
 Node.js
 Express.js
 Socket.IO
-⚙️ How It Works
+##⚙️ How It Works
 The client connects to the server using Socket.IO
 When a user sends a message, it is emitted to the server
 The server broadcasts the message to all connected clients
 All users receive and display the message instantly
-📂 Project Structure
+
+##📂 Project Structure
 chat-app/
  ├── node_modules/
  ├── package.json
  ├── server.js
  └── index.html
-▶️ How to Run the Project
+##▶️ How to Run the Project
 1️⃣ Install Dependencies
 npm install
 2️⃣ Start Server
@@ -52,7 +53,7 @@ node server.js
 Go to:
 
 http://localhost:3000
-🧪 Testing
+##🧪 Testing
 Open the app in multiple browser tabs or devices
 Send a message from one tab
 The message will appear instantly in all tabs
@@ -74,3 +75,8 @@ Online/offline user status
 👨‍💻 Author
 
 Developed as part of internship training.
+
+##OUTPUT
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/86925402-2ce8-4282-b6d6-7a0fa7022b83" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/fc91ab6b-ec2f-433d-a375-54c02d95a851" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/bfedeadb-8c2c-47cf-b031-795476175278" />
